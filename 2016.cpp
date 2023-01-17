@@ -1,7 +1,5 @@
 #include <iostream>
 #include <string>
-#include <vector>
-
 using namespace std;
 
 string solution(int a, int b) {
@@ -22,14 +20,4 @@ string solution(int a, int b) {
     answer = day[sum % 7];
 
     return answer;
-}
-
-int main()
-{
-    int month, day;
-    cout << "month,day >> ";
-    cin >> month >> day;
-    string answer;
-    answer = solution(month, day);
-    cout << answer<<"\n";
 }
